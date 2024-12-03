@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookTitleInput"
+        android:hint="Book Title"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookAuthorInput"
+        android:hint="Book Author"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookPagesInput"
+        android:hint="Book Pages"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:inputType="number"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addBook"
+        android:text="Add Book"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookList"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
